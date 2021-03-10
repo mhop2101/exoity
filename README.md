@@ -98,8 +98,7 @@ will be the most profitable symbol in the future.
 
 
 ## Executing the strategy
-In order to execute the strategy, the last **3** cells must be executed. The operations will  
-occur based on the parameters given at the **Trading conditions** section of the notebook.
+In order to execute the strategy, the last **3** cells must be executed. The operations will occur based on the parameters given at the **Trading conditions** section of the notebook.
 
 
 
