@@ -42,12 +42,12 @@ Gold = Symbol(name="XAUUSD",
 ```
 After the symbol is defined it has to be added to the ```SYMBOLS``` array on the **6th**  input  
 of the notebook.
-```python 
+```python
 SYMBOLS.append(Gold)
 ```
 
 Changing the symbol the strategy is being executed on can be done from the **8th**  
-input of the notebook. 
+input of the notebook.
 ```python
 symbol_to_trade = Volatility_10_1s
 timeframe = 60
@@ -71,20 +71,17 @@ symbol in cells **13** to **16**. Which corresponds to the  **Testing the best s
 
 Executing cells **13** to **16** will test the strategy on the symbols included in the ```SYMBOLS```  
 array with the data from the dates specified in **cell 14** from the following timeframes  
-**M15** **M30** **H1** **M4** 
+**M15** **M30** **H1** **M4**
 
 Changing testing dates can be done on **cell 14**
 ```python
 date_from = dt(2019,1,1)
 date_to = dt(2021,3,1)
-``` 
+```
 
-After performing the whole backtesting procedure information about the combination  
-of timeframes and symbols that have a winrate superior to **50.41%** will be printed out   
-in the following way ```SYMBOL at TIMEFRAME => WINRATE```.
+After performing the whole backtesting procedure information about the combination   of timeframes and symbols that have a winrate superior to **50.41%** will be printed out in the following way ```SYMBOL at TIMEFRAME => WINRATE```.
 
-After testing tradeable synthetic indexes available at the following [broker](https://www.binary.com/), the following   
-results were obtained.
+After testing tradeable synthetic indexes available at the following [broker](https://www.binary.com/), the following results were obtained.
 > **Volatility 10 (1s) Index at H1 => 0.504574019568849**  
 > **Volatility 50 (1s) Index at M30 => 0.5041894073333846**  
 > **Crash 1000 Index at M15 => 0.5215092269478689**  
@@ -97,7 +94,7 @@ results were obtained.
 
 The previous results would indicate that **historically**, the ___Boom 100 index___ at the *M15*  
 timeframe would've been the most profitable symbol. Although this ***doesn't mean*** it  
-will be the most profitable symbol in the future. 
+will be the most profitable symbol in the future.
 
 
 ## Executing the strategy
@@ -108,7 +105,7 @@ occur based on the parameters given at the **Trading conditions** section of the
 
 ## Disclaimer
 
-I am ***not a licensed advisor***. 
-This  EA ***does not guarantee*** results of any kind. and should be used with ***extreme caution***. 
+I am ***not a licensed advisor***.
+This  EA ***does not guarantee*** results of any kind. and should be used with ***extreme caution***.
 The content shared here is done so with an educational purpose and ***NOT as investment
-advice***. 
+advice***.
